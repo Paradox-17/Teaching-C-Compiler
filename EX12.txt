@@ -1,0 +1,7 @@
+void main() {
+    a = 10;
+    func();
+    int x;
+    int x = 1;
+    scanf("%f",&x);
+}

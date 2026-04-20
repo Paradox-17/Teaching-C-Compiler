@@ -1,0 +1,7 @@
+void main() {
+    int x1 = 1 + ( 6/2 - 1 ) * 2;
+    float x2 = -2.1 * 3;
+    
+    printf("%d",x1);
+    printf("%f",x2);
+}

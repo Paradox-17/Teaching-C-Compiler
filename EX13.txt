@@ -1,0 +1,33 @@
+void main() {
+    int begin_num = 2;
+    int end_num;
+    scanf("%d",&end_num);
+    int num = begin_num;
+    
+    while ( num <= end_num ) {
+        int is_prime = 1;
+        int divisor = 2;
+        int keep_checking = 1;
+        
+        while ( keep_checking == 1 ) {
+            if ( divisor * divisor > num ) {
+                keep_checking = 0;
+            }
+            
+            if ( keep_checking == 1 ) {
+                if ( num - ( num / divisor ) * divisor == 0 ) {
+                    is_prime = 0;
+                    keep_checking = 0;
+                }
+                divisor = divisor + 1;
+            }
+        }
+        
+        if ( is_prime == 1 ) {
+            printf("%d", num);
+        }
+        
+        num = num + 1;
+    }
+    
+}

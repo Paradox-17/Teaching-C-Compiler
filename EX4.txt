@@ -1,0 +1,10 @@
+void main() {
+    int a = -1;
+    int b = 1;
+    
+    if ( a <= b ) {
+        a = a + 1;
+        printf("%d",a);
+    }
+    else printf("%d",b);
+}

@@ -1,0 +1,9 @@
+void main() {
+    int a = 0;
+    printf("%d",a);
+    {
+        int a = 1;
+        printf("%d",a);
+    }
+    printf("%d",a);
+}

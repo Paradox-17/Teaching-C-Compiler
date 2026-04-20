@@ -1,0 +1,9 @@
+void main() {
+    int x1;
+    float x2;
+    
+    scanf("%d",&x1);
+    printf("%d",x1);
+    scanf("%f",&x2);
+    printf("%f",x2);
+}

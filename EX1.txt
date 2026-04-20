@@ -1,0 +1,12 @@
+void main() {
+    int x1;
+    int x2 = 1;
+
+    float x3;
+    float x4 = -2.71828;
+    
+    printf("%d",x1);
+    printf("%d",x2);
+    printf("%f",x3);
+    printf("%f",x4);
+}
